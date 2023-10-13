@@ -5,18 +5,22 @@ project:
 # ~ additional metadata excluded for brevity ~
 
 website:
-  title: "website"
+  title: "Josh Cullen"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: minty
+      dark: cyborg
     css: styles.css
     toc: true
+    
 
 
 
